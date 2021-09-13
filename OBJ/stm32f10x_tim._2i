@@ -1,0 +1,4 @@
+--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\SYSTEM -I ..\HARDWARE -I ..\HARDWARE\VI5310X -I ..\HARDWARE\User_Interface -I ..\HARDWARE\FATFS\src -I ..\HARDWARE\FATFS\exfuns -I ..\HARDWARE\FATFS\src\option -I ..\HARDWARE\TEXT -I ..\HARDWARE\PICTURE -I ..\HARDWARE\MPU6050 -I ..\HARDWARE\arithmetic -I ..\HARDWARE\BH1750 -I ..\HARDWARE\ADC -I ..\HARDWARE\POWER
+-ID:\Keil\park\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-D__UVISION_VERSION="535" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d --feedback "..\OBJ\VC_NEW.fed" "..\STM32F10x_FWLib\src\stm32f10x_tim.c"
